@@ -27,5 +27,7 @@ console.log('risultato della funzione' + risultato);
 console.log('utente' + pariDispari);
 
 if (risultato == pariDispari){
-    document.getElementById('pari-dispari').innerHTML = 'L\'utente ha vinto'
+    document.getElementById('pari-dispari').innerHTML = 'L\'utente ha vinto';
+} else {
+    document.getElementById('pari-dispari').innerHTML = 'L\'utente ha perso';
 }
